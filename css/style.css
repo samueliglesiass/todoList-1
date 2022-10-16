@@ -1,0 +1,138 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    border: 0;
+    list-style: none;
+}
+
+body{
+    background: rebeccapurple;
+}
+
+.container{
+    margin: 30px auto;
+    background: white;
+    max-width: 600px;
+
+    border-radius: 10px;
+
+    padding: 5px;
+    
+    
+}
+
+.header{
+    text-align: center;
+    margin: 0px auto;
+    width: 300px;
+
+}
+
+.header input{
+
+    border: 1px solid #ccc;
+    width: 200px;
+    height: 30px;
+
+    padding: 8px;
+
+    border-radius: 8px;
+
+}
+
+.header input:focus{
+    outline: none;
+}
+
+.header button{
+    width: 40px;
+    height: 30px;
+    border: 1px solid #ccc;
+
+    cursor: pointer;
+    transition: .5s;
+
+    border-radius: 8px;
+}
+
+
+.header button:hover{
+
+    color: #ccc;
+    background: rgb(160, 120, 199);
+    border: 1px solid black;
+}
+
+.list{
+    text-align: center;
+    margin: 0px auto;
+    width: 300px;
+}
+
+.section-list{
+    margin-top: 40px;
+}
+
+.list li{
+    
+    position: relative;
+    text-align: left;
+    padding: 6px;
+    
+    margin: 18px 0;
+
+    border-bottom: 1px solid rgb(236, 234, 234);
+}
+
+
+
+.list span{
+    font-size: 18px;
+    text-align: left;
+    padding: 8px;
+}
+
+.list .done-btn, .remove-btn {
+    width: 26px;
+    height: 26px;
+
+    position: absolute;
+    right: 0;
+    top: 1.5px;
+    
+    cursor: pointer;
+}
+
+.list .done-btn{
+    margin-right: 30px;
+}
+
+.list .done-btn:hover{
+    color: black;
+    background: rgb(158, 235, 164);
+    transition: .5s;
+    
+}
+.list .remove-btn:hover{
+    color: black;
+    background: rgb(228, 117, 109);
+    transition: .5s;
+    
+}
+
+.spim{
+
+    color: #ccc;
+    background: rgb(160, 120, 199);
+    text-decoration: line-through;
+    box-shadow: 2px 2px #ccc;
+    border-radius: 5px;
+}
+
+.hide{
+    display: none;
+}
+
+
+
+

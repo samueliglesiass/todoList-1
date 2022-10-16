@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TodoList01</title>
+
+    <link rel="stylesheet" href="../css/style.css">
+
+</head>
+
+<body>
+    
+    <div class="container">
+
+        <div class="header">
+
+            <h2>Salve sua proxima tarefa</h2>
+
+            <form  class="add-form" action="">
+                
+                <input type="text" id="tittle" placeholder="O que vai fazar ?">
+                <button id="add-btn" type="submit">
+                    <ion-icon id="icon-btn" name="add-outline"></ion-icon>
+                </button>
+
+            </form>
+        </div>
+
+        <div class="list">
+
+            <h2>Estas são suas tarefas:</h2>
+
+            <ul class="section-list">
+                <li  class="list-box spim hide">
+                    <span class="span-tittle"></span>
+                    <ion-icon class="done-btn" name="checkmark-outline"></ion-icon>
+                    <ion-icon class="remove-btn" name="close-outline"></ion-icon>
+                </li>
+            </ul>
+        
+        </div>
+
+    </div>
+
+
+
+
+
+    <script src="../js/script.js"></script>
+    <script  type = "module"  src = "https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"> </script>
+
+</body>
+</html>
